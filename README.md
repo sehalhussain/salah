@@ -1,7 +1,3 @@
-<div align="center">
-<img alt="GHBanner" src="https://i.ibb.co/jP6hLCKW/Salah-App-by-Sehal-Hussain.png" />
-</div>
-
 # Salah App
 
 A comprehensive Islamic app designed to help Muslims manage their daily prayers, read the Quran, access prayer times, and connect with mosques. Built with modern web technologies for a rich offline-capable mobile experience.
