@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" alt="GHBanner" src="https://i.ibb.co/jP6hLCKW/Salah-App-by-Sehal-Hussain.png" />
+<img alt="GHBanner" src="https://i.ibb.co/jP6hLCKW/Salah-App-by-Sehal-Hussain.png" />
 </div>
 
 # Salah App
