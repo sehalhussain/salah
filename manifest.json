@@ -1,0 +1,21 @@
+{
+  "short_name": "Salah",
+  "name": "Salah: Comprehensive Islamic Resource & Jamaat Finder",
+  "description": "The comprehensive digital resource for daily worship. Includes the Holy Quran, accurate local Jamaat times, Prayer schedules, Duas, and Islamic study tools.",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f7f7f7",
+  "background_color": "#f7f9fa"
+}

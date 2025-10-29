@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salah: Comprehensive Islamic Resource & Jamaat Finder</title>
+    <meta name="description" content="The comprehensive digital resource for daily worship. Includes the Holy Quran, accurate local Jamaat times, Prayer schedules, Duas, and Islamic study tools.">
+    <meta name="keywords" content="prayer times, jamaat times, mosque finder, quran reader, islamic calendar, hijri calendar, duas, dhikr, 99 names of Allah, salah reminders, prayer schedules, islamic resources, muslim app, quran memorization, quran recitation, tafsir, islamic studies">
+    <meta name="author" content="Sehal Hussain">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Salah: Comprehensive Islamic Resource & Jamaat Finder">
+    <meta property="og:description" content="Find accurate mosque prayer times, read the Holy Quran, access Islamic resources, and stay connected with your faith.">
+    <meta property="og:image" content="https://sehalhussain.github.io/salah/android-chrome-512x512.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="/">
+    <meta property="twitter:title" content="Salah: Comprehensive Islamic Resource & Jamaat Finder">
+    <meta property="twitter:description" content="Find accurate mosque prayer times, read the Holy Quran, access Islamic resources, and stay connected with your faith.">
+    <meta property="twitter:image" content="https://sehalhussain.github.io/salah/android-chrome-512x512.png">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="data-quran-font-indopak-nastaleeq.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['qpc-hafs', 'serif'],
+              indopak: ['"IndoPak Nastaleeq"', 'serif'],
+            },
+            colors: {
+              'primary': '#26a69a',           // Medium Teal
+              'primary-focus': '#00897b',      // Darker Teal
+              'secondary': '#ffb74d',          // Warm Orange/Gold
+              'secondary-focus': '#fb8c00',    // Darker Orange
+              'base-100': '#fafafa',          // Almost White
+              'base-200': '#f5f5f5',          // Light Gray
+              'base-300': '#eeeeee',          // Gray
+              'base-content': '#212121',      // Almost Black
+              
+              'dark-primary': '#80cbc4',          // Light Teal
+              'dark-primary-focus': '#4db6ac',   // Medium Teal
+              'dark-secondary': '#ffd54f',         // Light Gold
+              'dark-secondary-focus': '#ffca28',    // Brighter Gold
+              'dark-base-100': '#212121',      // Almost Black
+              'dark-base-200': '#303030',      // Dark Gray
+              'dark-base-300': '#424242',      // Medium Dark Gray
+              'dark-base-content': '#e0e0e0',      // Light Gray
+            },
+            keyframes: {
+              fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+              fadeInUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+              dropdownIn: {
+                  '0%': { opacity: '0', transform: 'scale(0.95)' },
+                  '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+              shimmer: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(100%)' },
+              }
+            },
+            animation: {
+              fadeIn: 'fadeIn 0.5s ease-out forwards',
+              fadeInUp: 'fadeInUp 0.5s ease-out forwards',
+              dropdownIn: 'dropdownIn 0.1s ease-out forwards',
+              shimmer: 'shimmer 1.5s infinite linear',
+            }
+          }
+        },
+        darkMode: 'class',
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+      /* Simple Inter font import */
+      /* Fallback font for Arabic text */
+      @font-face {
+        font-family: 'qpc-hafs';
+        src: url('font/UthmanicHafs_V22.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'nastaleeq';
+        src:  url('font/Jauhar_Regular.woff') format('woff');
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.76.1"
+      }
+    }
+    </script>
+  <script type="module" crossorigin src="/salah/assets/index-BQnpXbvJ.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+
+</body>
+</html>
