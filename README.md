@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://i.ibb.co/jP6hLCKW/Salah-App-by-Sehal-Hussain.png" />
+<img width="1200" alt="GHBanner" src="https://i.ibb.co/jP6hLCKW/Salah-App-by-Sehal-Hussain.png" />
 </div>
 
 # Salah App
@@ -25,8 +25,9 @@ A comprehensive Islamic app designed to help Muslims manage their daily prayers,
 
 ## Built and Maintained by
 
-**Sehal Hussain** 
-If you are grateful for the value this app brings?
+**Syed Sehal Hussain** 
+
+## If you are grateful for the value this app brings?
 
 Your heartfelt dua (prayer) for me and my family is the most cherished support. May your good deeds be rewarded.
 
