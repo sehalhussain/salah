@@ -14,13 +14,7 @@
       "type": "image/png"
     }
   ],
-  // 1. CHANGE: Use the relative path to the index file
-  "start_url": "./index.html", 
-  // OR the subpath itself, but "./index.html" is often more reliable with React builds
-  
-  // 2. ADDITION: Define the scope to be the sub-directory
-  "scope": "/salah/", 
-  
+  "start_url": "/salah/",
   "display": "standalone",
   "theme_color": "#f7f7f7",
   "background_color": "#f7f9fa"
