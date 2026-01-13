@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Salah - Islamic Resource & Jamaat Finder</title>
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // Redirect to index.html with the original path preserved for History API routing
+        var l = window.location;
+        var pathSegments = l.pathname.split('/');
+        var repoSegment = pathSegments[1]; // 'salah' for https://username.github.io/salah/
+
+        // Get the path after the repo segment
+        var routePath = '/' + pathSegments.slice(2).join('/');
+
+        // Redirect to index.html with the route path as a query parameter
+        var redirectUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                         '/' + repoSegment + '/?redirect=' + encodeURIComponent(routePath);
+
+        l.replace(redirectUrl);
+    </script>
+</head>
+<body>
+</body>
+</html>
